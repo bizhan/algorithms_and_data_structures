@@ -5,7 +5,7 @@
 #include <limits>
 
 using namespace std;
-
+#if 0
 int firstRepeating(std::vector<int> & arr) {
 	std::unordered_set<int> arrSet;
 	int min = -1;
@@ -45,3 +45,4 @@ TEST_CASE("Find first repeat 3"){
 	}
 	REQUIRE( firstRepeating(arr1) == 44 );
 }
+#endif
